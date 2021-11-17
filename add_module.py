@@ -6,3 +6,6 @@ def add2(a,b,c):
 
 def add_twice(a): 
     return 2*a
+
+def add_3times(a):
+    return 3*a       #comment
