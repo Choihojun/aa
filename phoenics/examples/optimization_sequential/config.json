@@ -1,0 +1,16 @@
+{
+	"general": {
+		"batches": 1,
+		"parallel": true,
+		"boosted":  true,
+		"backend": "tfprob",
+		"sampling_strategies": 2
+	},
+	"parameters": [
+		{"name": "x", "type": "continuous", "low": -5.0, "high": 10.0, "size": 1},
+		{"name": "y", "type": "continuous", "low":  0.0, "high": 15.0, "size": 1}
+	],
+	"objectives": [
+		{"name": "branin", "goal": "minimize"}
+	]
+}
